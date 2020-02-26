@@ -1,5 +1,5 @@
 # Fork of LoRa Gateway #
-========================
+
 Just A fork to get the RAK2245 to work somewhat reliable.
 
 
@@ -13,7 +13,7 @@ Just A fork to get the RAK2245 to work somewhat reliable.
 LoRa Gateway project
 =====================
 
-## 1. Core library: libloragw ##
+## 1. Core library: libloragw
 
 This directory contains the sources of the library to build a gateway based on 
 a Semtech LoRa multi-channel RF receiver (a.k.a. concentrator).
@@ -23,8 +23,7 @@ statically linked (ie. integrated in the final executable).
 The library also comes with a bunch of basic tests programs that are used to 
 test the different sub-modules of the library.
 
-## 2. Helper programs ##
-
+## 2. Helper programs
 
 Those programs are included in the project to provide examples on how to use 
 the HAL library, and to help the system builder test different parts of it.
@@ -63,16 +62,16 @@ gateway operates.
 
 This software is used to test "Listen-Before-Talk" channels timestamps.
 
-3. Helper scripts
------------------
+## 3. Helper scripts
+
 
 ### 3.1. reset_lgw.sh
 
 This script must be launched on IoT Start Kit platform to reset concentrator
 chip through GPIO, before starting any application using the concentrator.
 
-4. Changelog
--------------
+## 4. Changelog
+
 
 ### v5.0.1 ###
 
