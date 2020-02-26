@@ -1,6 +1,6 @@
 **Fork of LoRa Gateway**
   ====================
-  Just A fork to get get the RAK2245 to work reliable
+  Just A fork to get the RAK2245 to work somewhat reliable.
 
 
 	 / _____)             _              | |    
